@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`http://sociopedia-server-crzw.onrender.com/assets/${image}`}
+        src={`https://sociopedia-server-crzw.onrender.com/assets/${image}`}
       />
     </Box>
   );
