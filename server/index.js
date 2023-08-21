@@ -52,6 +52,12 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
+
+app.get("*", (req, res) => {
+  res.redirect("https://sociopedia-client-b6nv.onrender.com/");
+});
+
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
 mongoose
