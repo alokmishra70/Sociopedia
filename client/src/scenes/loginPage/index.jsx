@@ -27,7 +27,9 @@ const LoginPage = () => {
       <Form/>
       
       </Box>
+      <Box>Demo email :- a@gmail.com password :- a</Box>
     </Box>
+
   );
 };
 
